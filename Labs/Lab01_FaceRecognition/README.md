@@ -202,28 +202,30 @@ within the description. You do NOT have to document the setters and getters.
 
 Create a file `report.txt` and answer the following questions:
 
-1. In the code, you will see 2 different forms of an array. One is an `ArrayList` class that is imported
+<ol>
+<li> In the code, you will see 2 different forms of an array. One is an `ArrayList` class that is imported
 with `import java.util.ArrayList;` and the other is a built-in data type defined using square brackets.
 Consider the following definitions:,
 
-```
-Face[] facesArray = new Face[10]`;
+```Java
+Face[] facesArray = new Face[10];
 ArrayList<Face> facesList = new ArrayList<>();
 ```
+<ol>
+<li>Write the syntax to add an element to each of these structures.
+<li>Briefly describe the difference in how elements are added to each of these data structures.
+</ol>
 
-       a. Write the syntax to add an element to each of these structures.
-       b. Briefly describe the difference in how elements are added to each of these data structures.
-
-
-2. Look at the Point class definition. This class has 2 member variables x and y. If you declared a 
+<li> Look at the Point class definition. This class has 2 member variables x and y. If you declared a 
 Point and then wanted to get the x value, you could do this in 2 ways:
 
-```
+```Java
 System.out.println(point.x);
 System.out.println(point.x())
 ```
 
-       Briefly compare them by discussing their advantages and disadvanteges.
+<ol><li>Briefly compare them by discussing their advantages and disadvanteges.
+</ol></ol>
 
 <hr>
 
