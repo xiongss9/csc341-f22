@@ -170,23 +170,25 @@ java UnitTestFace
 
 <br>
 
-### Write Main.findBest(face,faces) and Main.findWorst(face,faces)
+### Write Main.findBestMatch(face,faces) and Main.findWorstMatch(face,faces)
 
-Complete the 2 separate functions that take a given face and compare it to all others. For _findBest()_, 
-it should return the face in _faces_ that has the minimum difference,  and for _findWorst()_,
+Complete the 2 separate functions that take a given face and compare it to all others. For _findBestMatch()_, 
+it should return the face in _faces_ that has the minimum difference,  and for _findWorstMatch()_,
 it should return the face with the maximum difference.
 
-Once you have completed `Main.findBest()`, run the unit tests again and see if you have passed. Be sure
+Once you have completed `Main.findBestMatch()`, run the unit tests again and see if you have passed. Be sure
 to fix the code before moving on.
 
-Complete `Main.findWorst()`. It is identical to findBest() except for a few minor changes.
+Complete `Main.findWorstMatch()`. It is identical to findBestMatch() except for a few minor changes.
 
 <br>
 
-### Write Unit Tests for Main.findWorst
+### Write Unit Tests for Main.findWorstMatch
 
-As part of this assignment, you need to write 3 unit tests for the `Main.findWorst()` method. The unit tests for
-this should be similar to those for `findBest`. 
+As part of this assignment, you need to write 3 unit tests for the `Main.findWorstMatch()` method. The unit tests for
+this should be similar to those for `findBestMatch`. 
+
+> oops! Looks like I forgot to remove the tests before posting. Lucky you. You might want to write one just to make sure you understand how they work.
 
 <br>
 
