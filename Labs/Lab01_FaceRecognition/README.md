@@ -229,10 +229,12 @@ System.out.println(point.x())
 
 <hr>
 
-### Submit
+### Submit to Moodle
 
 Zip the folder and submit via Moodle. You can zip the folder by right clicking the icon and choosing
 to compress it.
+       
+
 
 
 
