@@ -33,7 +33,7 @@ Here is an example from Dr. Larson's machine:
 cd ~/courses
 mkdir cs341
 cd cs341
-git clone https://github.com/lars1050/csc341F22 
+git clone https://github.com/lars1050/csc341-f22 
 mkdir sandbox
 ```
 
