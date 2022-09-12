@@ -1,6 +1,6 @@
 ## Lab 01 Best Programming Practices in the Context of Machine Learning
 
-#### DUE Thursday, September 10 end-of-day
+#### DUE Wednesday, September 14 end-of-day
 
 In this lab, you will complete _cartoon_ facial recognition using a common
 machine learning technique. In the process, you will learn about best industry
