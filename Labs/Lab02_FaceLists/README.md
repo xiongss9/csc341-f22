@@ -1,5 +1,5 @@
 ### Lab 2 : Building a LIST Abstract Data Type
-#### Due Thursday, September 18
+#### Due Monday, September 19
 #### Submit a single zipped file to Moodle
 
 In this lab, you will again be working with a database of cartoon faces that can be used for facial recognition.
