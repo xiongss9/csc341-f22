@@ -159,7 +159,7 @@ public class TestList {
 		Assert.assertEquals(f2,faces.peek(2),"add to capacity (value)");
 		faces.add(f3);
 		Assert.assertEquals(3,faces.length(),"add attempt over capacity (length)");
-		Assert.assertEquals(f3,faces.peek(2),"add attempt over capacity (value)");
+		Assert.assertEquals(f2,faces.peek(2),"add attempt over capacity (value)");
 
 
 		System.out.println("--------------add(face, index)");
