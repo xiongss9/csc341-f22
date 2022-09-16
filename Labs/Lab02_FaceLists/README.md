@@ -2,6 +2,10 @@
 #### Due Monday, September 19
 #### Submit a single zipped file to Moodle
 
+CHANGES:
+- 09-15-22: Do not print any error message in peek or in add.
+- 09-15-22: Requirements did not mention `set`, but it is in the code. Please implement `set`.
+
 In this lab, you will again be working with a database of cartoon faces that can be used for facial recognition.
 In Lab01, the _database_ was a basic array with a fixed size. After the initial filling of the array to construct
 the database, there were no modifications to the array. This is not a reasonable assumption, and you need
@@ -73,21 +77,26 @@ Implement the following ...
 
 9. Implement the `peek(int index)` method.
     - If the index is valid, return the element at that index. It should not be removed, just returned.
-    - If the index is not valid, print an error message and return null.
+    - If the index is not valid, <del>print an error message and</del> return null.
 
 #### ADD Methods
 
 10. Implement the add method `add(Face face)`.
     - If the structure is not full, add to the end of the list. (The _end_ of the list refers to the last element in the list.)
-    - If the structure is full, print an error message. Do not add anything to the list.
+    - If the structure is full, ignore the request <del>print an error message</del>. Do not add anything to the list.
     - Maintain the count.
 
 11. Implement the add method `add(Face face, int index)`.
-    - If the index is invalid (i.e. a location that leaves space between elements or is out of range), print an error message. Do not add the face to the list.
+    - If the index is invalid (i.e. a location that leaves space between elements or is out of range), ignore the request <del>print an error message</del>. Do not add the face to the list.
     - If the structure is not full and the index is valid, add the element at the index indicated.
     - Shift all elements as appropriate BEFORE adding the element to make space for it.
-    - If the structure is full, print an error message. Do not add anything to the list.
+    - If the structure is full, ignore the request <del>print an error message</del>. Do not add anything to the list.
     - Maintain the count.
+
+> Note that ignoring the request without providing feedback to the user is not a good idea. But neither are print statements. We will fix this at some point.
+    
+12. Implement the set method `void set(int index, Face face)`
+    - IF the index is valid, relplace the element at index with the one passed to the method.
 
 12. Write a test for `add(Face face, int index)` in which you are adding to the middle of the List. _Look for the TODO._
 
@@ -99,7 +108,7 @@ and one that is beyond the capacity. _Look for the TODO._
 
 #### FIND Method
 
-14. Implement the `recordNo(Face face)` method.
+15. Implement the `recordNo(Face face)` method.
     - If the face is in the list, return its index.
     - If the face is not in the list, return -1 (no error message required).
 
@@ -107,14 +116,14 @@ and one that is beyond the capacity. _Look for the TODO._
 
 #### CONVERT Method
 
-15. Implement `Face[] toArray()`. It creates an array of the size of the number of elements stored. All elements are copied into the 
+16. Implement `Face[] toArray()`. It creates an array of the size of the number of elements stored. All elements are copied into the 
 array in the order they appear in the List.
 
 #### TESTS for Remove Methods
 
-16. Write at least 2 tests for `remove(Integer index)`. One test should test to remove at a valid index and the other should test to remove at an invalid index.
+17. Write at least 2 tests for `remove(Integer index)`. One test should test to remove at a valid index and the other should test to remove at an invalid index.
 
-17. Write at least 2 tests for `remove(Face face)`. One test should search for a face that is in the list and one for a face that is not in the list.
+18. Write at least 2 tests for `remove(Face face)`. One test should search for a face that is in the list and one for a face that is not in the list.
 
 
 #### QUESTIONS
