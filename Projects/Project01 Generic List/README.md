@@ -1,7 +1,7 @@
 ### PROJECT 1 : The LIST Abstract Data Type
 #### Due Tuesday, October 11 end-of-day
 #### Submit a single zipped file to Moodle
-#### Complete the Google form to report status and answer questions: https://forms.gle/nGLb8jed8LL6cqK47
+#### Complete the Google form to report status and answer questions: <a href="https://forms.gle/nGLb8jed8LL6cqK47" target="_blank">https://forms.gle/nGLb8jed8LL6cqK47</a>
 
 In this first project, you will complete a generic List class that is implemented using
 Java's basic array data structure. The List class will be able to manage a collection
@@ -69,7 +69,7 @@ increase the capacity of the array.
 
 #### STYLE REQUIREMENTS
 
-One common style guide is Google's https://google.github.io/styleguide/javaguide.html. Here are
+One common style guide is Google's <a href="https://google.github.io/styleguide/javaguide.html" target="_blank">https://google.github.io/styleguide/javaguide.html</a>. Here are
 some rules for you to follow for this project.
 
 - variable names use lower case (camel case for multiple words). Example: `studentName`
@@ -166,7 +166,7 @@ In a file named `TestOrder.java`, create tests for both the min and max methods.
 
 #### QUESTIONS
 
-> ANSWER THESE QUESTIONS IN THE GOOGLE FORM: https://forms.gle/nGLb8jed8LL6cqK47
+> ANSWER THESE QUESTIONS IN THE GOOGLE FORM: <a href="https://forms.gle/nGLb8jed8LL6cqK47" target="_blank">https://forms.gle/nGLb8jed8LL6cqK47</a>
 
 1. Why is it important that we can use generic types to create class? In other words, what would you have to do if that did not exist?
 
